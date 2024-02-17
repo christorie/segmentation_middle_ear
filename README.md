@@ -1,6 +1,6 @@
 # segmentation_middle_ear
 
-This application is based on the radiology [MONAI sample app](https://github.com/Project-MONAI/MONAILabel/tree/main/sample-apps/radiology) and was modified for the segmentation of the tympanic cavity and the ossicles in the middle ear based on CT Scans. It includes modifications for the training of a V-Net shaped CNN and the inference on cropped CT volumes of the middle ear. Also the pre-trained segmentation_middle_ear model is provided which was used for the presented segmentations and the validations in the paper linked below.
+This application is based on the radiology [MONAI sample app](https://github.com/Project-MONAI/MONAILabel/tree/main/sample-apps/radiology) and was modified for the segmentation of middle ear ossicles and the tympanic cavity based on CT Scans. It includes modifications for the training of a V-Net shaped CNN and the inference on cropped CT volumes of the middle ear. Also the pre-trained segmentation_middle_ear model is provided which was used for the presented segmentations and the validations in the paper linked below.
 
 <img src="https://github.com/christorie/segmentation_middle_ear/blob/main/media/ossicles.gif" width="400" height="300" style="float: left;"/> <img src="https://github.com/christorie/segmentation_middle_ear/blob/main/media/tympanicCavity.gif" width="400" height="300" align="right"/>
 
