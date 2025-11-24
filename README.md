@@ -55,4 +55,28 @@ You can then create closed surface representations of the segmentations with the
 Training, inference and architecture of the CNN can be modified in the ```segmentation_middle_ear.py``` files located under the ```radiology/lib/``` directory, e.g. ```/segmentation_middle_ear/radiology/lib/trainers/segmentation_middle_ear.py```.
 
 # Paper
-tba
+## Citation:
+Christopher Späth, Christian Schwarzbauer, Florian Schrötzlmair,
+*Automated segmentation of the middle ear ossicles and tympanic cavity based on a deep-learning model*,
+Informatics in Medicine Unlocked,
+Volume 59,
+2025,
+101718,
+ISSN 2352-9148,
+https://doi.org/10.1016/j.imu.2025.101718.
+(https://www.sciencedirect.com/science/article/pii/S2352914825001078)
+## Bibtex:
+```
+@article{SPATH2025101718,
+title = {Automated segmentation of the middle ear ossicles and tympanic cavity based on a deep-learning model},
+journal = {Informatics in Medicine Unlocked},
+volume = {59},
+pages = {101718},
+year = {2025},
+issn = {2352-9148},
+doi = {https://doi.org/10.1016/j.imu.2025.101718},
+url = {https://www.sciencedirect.com/science/article/pii/S2352914825001078},
+author = {Christopher Späth and Christian Schwarzbauer and Florian Schrötzlmair},
+keywords = {Middle ear, Automated segmentation, Ossicles, Tympanic cavity, Deep-learning, V-net}
+}
+```
